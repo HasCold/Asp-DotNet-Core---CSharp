@@ -1,0 +1,25 @@
+// Intitialize the project via the command:-
+- dotnet new console -n <project-name>
+
+// Compile command :-
+1. dotnet run (from root dir)
+2. csc filename (manual command)
+
+// Learning :-
+- C# 14 and .NET 10
+- Asp.Net cor MVC
+- Database connectivity: Entity Framework Core
+- AI based application: ML .NET
+- Cloud based application: Azure
+
+- C# is an Object Oriented Programming Language in which the program made by following up the Class and Object.
+
+// Program Execution :-
+- hello.cs Program  --->>>
+- Compiler converts this file to .exe(binary executable) file in which there is a CIL(Common Intermediate Language) code  --->>> 
+- CLR(Common Language Runtime) execute your .exe file on the OS and in CLR we have one component called JIT (they basically re-compile and convert into the Machine Code). --->>>
+- And operating system provide us the Output
+
+// Type of Runtime software :- 
+- Java programs run on the JVM (Java Virtual Machine).
+- C# programs run on the CLR (Common Language Runtime).

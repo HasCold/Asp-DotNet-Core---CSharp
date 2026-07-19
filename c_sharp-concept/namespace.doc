@@ -1,0 +1,9 @@
+---------------------- Namespace ------------------------
+
+1. In java we have packages.
+2. In c# we have namespaces.
+3. In golang we have packages.
+
+- Namespace is a logical container, which is used to contain pre-defined classes, interfaces and structs. 
+
+- Standard Approach :- Filename and Classname should be same but there is no restriction imposed by the IDE or compiler but regardless of that we maintain and follow this rule by ourselve.

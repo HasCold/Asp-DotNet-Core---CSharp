@@ -1,0 +1,14 @@
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\bin\Debug\net10.0\c_sharp-learning.exe
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\bin\Debug\net10.0\c_sharp-learning.deps.json
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\bin\Debug\net10.0\c_sharp-learning.runtimeconfig.json
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\bin\Debug\net10.0\c_sharp-learning.dll
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\bin\Debug\net10.0\c_sharp-learning.pdb
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.AssemblyInfoInputs.cache
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.AssemblyInfo.cs
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.csproj.CoreCompileInputs.cache
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.dll
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\refint\c_sharp-learning.dll
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.pdb
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.genruntimeconfig.cache
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\ref\c_sharp-learning.dll
