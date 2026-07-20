@@ -1,0 +1,94 @@
+--------------------------- 1. Public -------------------------------
+Use public when you want everyone to use it, even code from another project.
+
+---- Code :-
+public class Calculator
+{
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
+}
+
+Now any project can do
+---- Code :-
+Calculator calc = new Calculator();
+calc.Add(10, 20);
+
+When should we use it?
+
+Use public for:
+APIs
+Services
+Controllers
+Methods other developers should call
+DTOs
+Models that need to be shared
+
+----------------------------- 2. Private ------------------------------------
+Use private when something is only for the class itself.
+
+---- Code :-
+public class BankAccount
+{
+    private decimal balance;
+
+    public void Deposit(decimal amount)
+    {
+        balance += amount;
+        LogTransaction();
+    }
+
+    private void LogTransaction()
+    {
+        Console.WriteLine("Transaction logged");
+    }
+}
+
+Outside the class:
+
+---- Code :-
+BankAccount account = new BankAccount();
+
+account.Deposit(100);      // ✅
+
+account.LogTransaction();  // ❌ Error
+
+account.balance;           // ❌ Error
+
+
+----------------------------- 3. Internal -------------------------------
+
+This one confuses many beginners.
+
+Suppose you have:
+Solution
+│
+├── PaymentAPI
+│
+├── PaymentCore
+│
+└── ConsoleApp
+
+PaymentCore is one project (assembly).
+If something is
+
+---- Code :-
+internal class PaymentValidator
+{
+}
+
+then
+Inside PaymentCore :-
+- Service
+- Repository
+- Manager
+- Controller
+
+can all use it.
+
+But from another project: ConsoleApp
+you cannot.
+PaymentCore  ✅
+ConsoleApp   ❌
+WebAPI       ❌

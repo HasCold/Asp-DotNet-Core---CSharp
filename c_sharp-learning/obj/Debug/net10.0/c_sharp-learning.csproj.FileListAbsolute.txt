@@ -12,3 +12,4 @@ D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\refint\c_sh
 D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.pdb
 D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.genruntimeconfig.cache
 D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\ref\c_sharp-learning.dll
+D:\Hasan_Data\C_Sharp-programming\c_sharp-learning\obj\Debug\net10.0\c_sharp-learning.sourcelink.json
