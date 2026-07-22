@@ -1,6 +1,7 @@
 ﻿namespace CSharp;
 
 using System;
+using DataType;
 using CmdLineInput;
 using SI;
 
@@ -10,7 +11,7 @@ class Program{
         Console.WriteLine("Hello, C# Programming"); 
         
         // CmdLineInput.ReadInput();
-        SICalc.SIFunc();
-
+        // SICalc.SIFunc();
+        DataType.Func();
     }
 }
