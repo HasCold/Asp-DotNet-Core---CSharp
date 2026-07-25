@@ -4,14 +4,20 @@ using System;
 using DataType;
 using CmdLineInput;
 using SI;
+using ASCII;
 
-class Program{
-    static void Main(string[] args){
+class Program
+{
+    static void Main(string[] args)
+    {
         Console.WriteLine("Hello, World!");
-        Console.WriteLine("Hello, C# Programming"); 
-        
+        Console.WriteLine("Hello, C# Programming");
+
         // CmdLineInput.ReadInput();
         // SICalc.SIFunc();
-        DataType.Func();
+        // DataType.Func();
+        ASCIIORUNICODE.Implementation();
+
+
     }
 }
