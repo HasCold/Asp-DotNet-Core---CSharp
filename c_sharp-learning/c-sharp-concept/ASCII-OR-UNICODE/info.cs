@@ -10,31 +10,40 @@ internal class ASCIIORUNICODE
 {
     internal static void Implementation()
     {
-        char ch;
-        Console.WriteLine("Plesae, Enter the one character");
-        string? input = Console.ReadLine();
-        if (string.IsNullOrEmpty(input))
-        {
-            Console.WriteLine("No character entered");
-            return;
-        }
-        ch = Convert.ToChar(input);
-        int ascii = ch;
-        Console.WriteLine($"The unicode value is {ascii}");
+        // char ch;
+        // Console.WriteLine("Plesae, Enter the one character");
+        // string? input = Console.ReadLine();
+        // if (string.IsNullOrEmpty(input))
+        // {
+        //     Console.WriteLine("No character entered");
+        //     return;
+        // }
+        // ch = Convert.ToChar(input);
+        // int ascii = ch;
+        // Console.WriteLine($"The unicode value is {ascii}");
 
-        switch (ch)
-        {
-            case 'a':
-            case 'e':
-            case 'i':
-            case 'o':
-            case 'u':
-                Console.WriteLine("It is a vowel");
-                break;
+        // switch (ch)
+        // {
+        //     case 'a':
+        //     case 'e':
+        //     case 'i':
+        //     case 'o':
+        //     case 'u':
+        //         Console.WriteLine("It is a vowel");
+        //         break;
 
-            default:
-                Console.WriteLine("It is a consonent");
-                break;
+        //     default:
+        //         Console.WriteLine("It is a consonent");
+        //         break;
+        // }
+
+        // int i;
+        // for(i = 1; i <= 10; i++);{
+        //     Console.WriteLine(i);
+        // }
+
+        for(int i = 1; i <= 10; i++){
+            Console.WriteLine(i);
         }
     }
 }
