@@ -1,10 +1,7 @@
 ﻿namespace CSharp;
 
 using System;
-using DataType;
-using CmdLineInput;
-using SI;
-using ASCII;
+using ArrayTyp;
 
 class Program
 {
@@ -16,7 +13,8 @@ class Program
         // CmdLineInput.ReadInput();
         // SICalc.SIFunc();
         // DataType.Func();
-        ASCIIORUNICODE.Implementation();
+        // ASCIIORUNICODE.Implementation();
+        ArrayTyp.ArrImplementation();
 
 
     }
