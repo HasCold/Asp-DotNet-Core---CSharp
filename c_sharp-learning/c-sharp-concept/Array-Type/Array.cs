@@ -11,18 +11,40 @@ internal class ArrayTyp
 {
     internal static void ArrImplementation()
     {
-        int[] x = { 10, 20, 30, 40 };
+        Console.WriteLine("Enter the size of array");
+        int size = Convert.ToInt32(Console.ReadLine());
+        int[] s = new int[size];
 
-        for (int i = 0; i < x.Length; i++)
+        for (int i = 0; i < s.Length; i++)
         {
-            Console.WriteLine("Int : {0}: {0}", i, x[i]);
+            Console.WriteLine($"Enter element for {i} index");
+            s[i] = Convert.ToInt32(Console.ReadLine());
         }
 
-        Console.Write("For Each Loop");
-        Console.Write("\n");
-        foreach (int item in x)
+        int mx = 0;
+        foreach (int item in s)
         {
-            Console.WriteLine(x);
+            if (mx < item)
+            {
+                mx = item;
+            }
         }
+        Console.WriteLine("Max Element is {mx}");
+
+        // int[] x = { 10, 20, 30, 40 };
+
+        // for (int i = 0; i < s.Length; i++)
+        // {
+        //     Console.WriteLine();
+        //     Console.WriteLine("Display with For Loop");
+        //     Console.WriteLine("Int : {0}: {0}", i, s[i]);
+        // }
+
+        // Console.Write("For Each Loop");
+        // Console.Write("\n");
+        // foreach (int item in x)
+        // {
+        //     Console.WriteLine(x);
+        // }
     }
 }

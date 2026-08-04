@@ -2,6 +2,7 @@
 
 using System;
 using ArrayTyp;
+using MultiDiemensional;
 
 class Program
 {
@@ -14,8 +15,8 @@ class Program
         // SICalc.SIFunc();
         // DataType.Func();
         // ASCIIORUNICODE.Implementation();
-        ArrayTyp.ArrImplementation();
-
+        // ArrayTyp.ArrImplementation();
+        MultiDiemensional.MultiArray();
 
     }
 }
