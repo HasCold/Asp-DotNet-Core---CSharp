@@ -3,6 +3,7 @@
 using System;
 using ArrayTyp;
 using MultiDiemensional;
+using Student;
 
 class Program
 {
@@ -16,7 +17,11 @@ class Program
         // DataType.Func();
         // ASCIIORUNICODE.Implementation();
         // ArrayTyp.ArrImplementation();
-        MultiDiemensional.MultiArray();
-
+        // MultiDiemensional.MultiArray();
+        Student s = new Student();
+        s.AcceptStudent(12219, "Engineering", "M Hasan Ali", 5600);
+        s.DisplayStudent();
+        // Another way of calling; Anonymous Object
+        // new Student().DisplayStudent();
     }
 }
