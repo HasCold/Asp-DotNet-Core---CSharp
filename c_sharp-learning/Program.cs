@@ -1,12 +1,17 @@
 ﻿namespace CSharp;
 
 using System;
-using ArrayTyp;
-using MultiDiemensional;
 using Student;
 
 class Program
 {
+    // This static constructor program will be run before the Main func execution
+    // Constructor func memory allocation within the Class memory
+    static Program()
+    {
+        Console.WriteLine("Main Static Constructor");
+    }
+
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
