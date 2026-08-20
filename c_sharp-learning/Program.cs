@@ -2,6 +2,7 @@
 
 using System;
 using Student;
+using Poly;
 
 class Program
 {
@@ -23,10 +24,14 @@ class Program
         // ASCIIORUNICODE.Implementation();
         // ArrayTyp.ArrImplementation();
         // MultiDiemensional.MultiArray();
-        Student s = new Student();
-        s.AcceptStudent(12219, "Engineering", "M Hasan Ali", 5600);
-        s.DisplayStudent();
+        // Student s = new Student();
+        // s.AcceptStudent(12219, "Engineering", "M Hasan Ali", 5600);
+        // s.DisplayStudent();
         // Another way of calling; Anonymous Object
         // new Student().DisplayStudent();
+
+        Poly p = new Poly();
+        p.Add(1, 5);
+        p.Add(2.1F, 9.6F);
     }
 }

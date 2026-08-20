@@ -42,4 +42,11 @@ class Database
     {
         return new Database();
     }
+
+    private int width;
+    public int Height
+    {
+        get { return width; }
+        set { width = value; }
+    }
 }
